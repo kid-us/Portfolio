@@ -1,0 +1,15 @@
+const developer = {
+    description: "Lorem",
+    name: 'Kidus Wondmagegnehu',
+    skills: ['React', 'Laravel', 'Bootstrap'],
+    graduated: true,
+    hardWorker: true,
+    problemSolver: true,
+    hireable: function() {
+        return (
+            this.hardWorker &&
+            this.problemSolver &&
+            this.skills.length >=3
+        );
+    }
+}

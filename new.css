@@ -2,6 +2,64 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@500&family=Lilita+One&family=Poppins:wght@700&family=Rajdhani&family=Rowdies:wght@300&family=Ubuntu:wght@300&display=swap");
 
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  /* animation: slide 3s ease-in-out infinite alternate; */
+  background-image: linear-gradient(-90deg, #39393a 49%, #eaf2e3 51%);
+  bottom: 0;
+  /* left: 80%; */
+  opacity: 0.5;
+  position: absolute;
+  /* right: -50%; */
+  top: 0;
+  z-index: -2;
+  width: 100%;
+  height: 1145px;
+}
+
+/* .bgs { */
+/* background-color: #252323; */
+/* width: 20%;
+  height: 1245px;
+  position: absolute;
+  top: -18em;
+  left: 10%;
+  z-index: -1;
+  rotate: 45deg; */
+/* border-top: 825px solid transparent;
+  border-right: 50px solid #555;
+  border-bottom: 25px solid transparent; */
+/* } */
+
+/* .bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+} */
+
+/* .content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
+
 /* ###################### Global styles  */
 
 /* :root {
@@ -61,6 +119,26 @@ textarea {
   display: none;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+  height: 100px;
+  height: 338px;
+}
+
+.center-overflow-scroll {
+  overflow: scroll;
+  height: 100px;
+  height: 320px;
+}
+
 .monitor {
   z-index: 20;
 }
@@ -81,7 +159,7 @@ textarea {
 }
 
 .monitor-left {
-  height: 262px;
+  height: 362px;
   background-color: #979797;
   transition: 0.3s;
   transform: rotateY(30deg);
@@ -93,7 +171,7 @@ textarea {
 
 .monitor-center {
   margin-top: 10px;
-  height: 244px;
+  height: 344px;
   background-color: #979797;
   transition: 0.3s;
   border: 8px solid #000;
@@ -103,7 +181,7 @@ textarea {
 }
 
 .monitor-right {
-  height: 262px;
+  height: 362px;
   background-color: #979797;
   transition: 0.3s;
   transform: rotateY(-30deg);
@@ -114,7 +192,7 @@ textarea {
 }
 
 .left-screen {
-  height: 238px;
+  height: 338px;
   /* background-color: #383737; */
   /* overflow: scroll; */
   background-color: #fff;
@@ -123,19 +201,19 @@ textarea {
 }
 
 .center-screen {
-  height: 220px;
+  height: 320px;
   /* background-color: #383737; */
   /* overflow: scroll; */
-  background-color: #fff;
+  background-color: #565656;
   border: 2px solid #000;
   border-radius: 4px;
 }
 
 .right-screen {
-  height: 238px;
+  height: 338px;
   /* background-color: #383737; */
   /* overflow: scroll; */
-  background-color: #fff;
+  background-color: #171716;
   border: 2px solid #000;
   border-radius: 4px;
 }
@@ -286,7 +364,7 @@ textarea {
 
 .screen-saver {
   object-fit: cover;
-  filter: blur(1px);
+  /* filter: blur(1px); */
 }
 
 .sign-btn {
@@ -294,7 +372,7 @@ textarea {
   position: absolute;
   left: 40%;
   top: 45%;
-  filter: blur(0.5px);
+  /* filter: blur(0.5px); */
 }
 
 .center-sign-btn {
@@ -302,14 +380,14 @@ textarea {
   position: absolute;
   left: 48%;
   top: 45%;
-  filter: blur(0.5px);
+  /* filter: blur(0.5px); */
 }
 
 .md-center-sign-btn {
   font-size: smaller;
   position: absolute;
-  left: 60%;
-  top: 170%;
+  left: 62%;
+  margin-top: 100px;
   filter: blur(0.5px);
 }
 

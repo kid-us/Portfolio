@@ -11,6 +11,22 @@
   border-radius: 15px;
 }
 
+.sm-table {
+  margin-top: 2.2em;
+  border-bottom: 45px solid #dadada;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-radius: 15px;
+}
+
+.sm-front-table {
+  margin-top: -0.2em;
+  /* width: 99%; */
+  height: 35px;
+  background-color: #b3b2b2;
+  border-radius: 5px;
+}
+
 .front-table {
   margin-top: -1.2em;
   width: 100%;
@@ -46,13 +62,14 @@
 /* Keyboard */
 .keyboard {
   position: relative;
+  z-index: 1;
 }
 
 .keyboard-top {
   position: absolute;
-  width: 35%;
+  width: 38%;
   top: -3em;
-  left: 20em;
+  left: 14em;
   border-left: 25px solid transparent;
   border-bottom: 25px solid #404040;
   border-right: 25px solid transparent;
@@ -62,9 +79,9 @@
 .keyboard-front {
   position: absolute;
   margin-top: -1.5em;
-  width: 35%;
+  width: 38%;
   height: 6px;
-  left: 20em;
+  left: 14em;
   background-color: #aa5858;
   border-radius: 5px;
 }
@@ -239,4 +256,56 @@
   background-color: blue;
   z-index: 0;
   border-radius: 6px;
+}
+
+/* Phone */
+.phone {
+  position: relative;
+  z-index: 1;
+}
+
+.phone-top {
+  position: absolute;
+  width: 35%;
+  top: -3.4em;
+  border-bottom: 25px solid #000;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-radius: 5px;
+}
+
+.phone-side {
+  position: absolute;
+  width: 33%;
+  top: -2em;
+  margin-left: 1.5px;
+  height: 2px;
+  background-color: #aa5858;
+  border-radius: 5px;
+}
+
+.height {
+  position: absolute;
+  width: 2px;
+  top: -6em;
+  margin-left: 19px;
+  height: 40px;
+  /* background-color: #aa5858; */
+  border: 2px dotted #000;
+  border-radius: 5px;
+}
+
+.circle {
+  position: absolute;
+  width: 70px;
+  top: -7.5em;
+  margin-left: -11px;
+  height: 30px;
+  /* background-color: #aa5858; */
+  border-radius: 5px;
+  z-index: 6;
+}
+
+.circle p {
+  font-size: smaller;
 }

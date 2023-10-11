@@ -1,0 +1,27 @@
+.var {
+  color: rgb(229, 136, 167);
+}
+
+.string {
+  color: rgb(157, 223, 26);
+}
+
+.boolean {
+  color: rgb(238, 107, 151);
+}
+
+.method {
+  color: rgb(80, 80, 251);
+}
+
+.return {
+  color: aqua;
+}
+
+.number {
+  color: orangered;
+}
+
+.name {
+  color: #fff;
+}
