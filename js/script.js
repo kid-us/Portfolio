@@ -36,7 +36,7 @@ trackIndex = 0;
 
 tracks = [
   "musics/Blackway.mp3",
-  "musics/Jemberu.mp3, musics/Metro.mp3, musics/NF.mp3, Rophnan.mp3, musics/Weeknd.mp3",
+  "musics/Jemberu.mp3, musics/Metro.mp3, musics/NF.mp3, musics/Rophnan.mp3, musics/Weeknd.mp3",
 ];
 
 function pausePlay() {
