@@ -177,7 +177,7 @@ textarea {
   border: 8px solid #000;
   border-radius: 5px;
   z-index: 1;
-  box-shadow: 10px 10px 5px gray, 10px 10px 5px gray;
+  box-shadow: -5px -5px 5px gray, 5px 5px 5px gray;
 }
 
 .monitor-right {
