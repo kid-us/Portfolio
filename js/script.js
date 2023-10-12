@@ -8,7 +8,6 @@ const tooltipList = [...tooltipTriggerList].map(
 const signInBtn = document.querySelectorAll(".btn-danger");
 // Audio
 const audioContainer = document.getElementById("audio-container");
-// const smAudioContainer = document.getElementById("sm-audio-container");
 
 let playing = true;
 
@@ -21,7 +20,6 @@ signInBtn.forEach((btn) => {
     btn.nextSibling.nextSibling.classList.remove("hidden");
 
     audioContainer.classList.remove("hidden");
-    // smAudioContainer.classList.remove("hidden");
     if (playing) pausePlay();
   });
 });
