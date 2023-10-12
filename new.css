@@ -21,7 +21,7 @@ body {
   top: 0;
   z-index: -2;
   width: 100%;
-  height: 1145px;
+  height: 120vh;
 }
 
 /* .bgs { */
@@ -129,13 +129,13 @@ textarea {
 
 .overflow-scroll {
   overflow: scroll;
-  height: 100px;
+  /* height: 100px; */
   height: 338px;
 }
 
 .center-overflow-scroll {
   overflow: scroll;
-  height: 100px;
+  /* height: 100px; */
   height: 320px;
 }
 
@@ -166,7 +166,7 @@ textarea {
   border: 8px solid #000;
   border-radius: 5px;
   z-index: 1;
-  box-shadow: 10px 10px 5px gray, 10px 10px 5px gray;
+  box-shadow: -10px 10px 5px gray, -10px 10px 5px gray;
 }
 
 .monitor-center {
@@ -195,7 +195,9 @@ textarea {
   height: 338px;
   /* background-color: #383737; */
   /* overflow: scroll; */
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #191923;
+
   border: 2px solid #000;
   border-radius: 4px;
 }
@@ -204,7 +206,7 @@ textarea {
   height: 320px;
   /* background-color: #383737; */
   /* overflow: scroll; */
-  background-color: #565656;
+  background-color: #171716;
   border: 2px solid #000;
   border-radius: 4px;
 }
@@ -364,7 +366,7 @@ textarea {
 
 .screen-saver {
   object-fit: cover;
-  /* filter: blur(1px); */
+  filter: blur(5px);
 }
 
 .sign-btn {
@@ -387,14 +389,14 @@ textarea {
   font-size: smaller;
   position: absolute;
   left: 62%;
-  margin-top: 100px;
-  filter: blur(0.5px);
+  margin-top: 150px;
+  /* filter: blur(0.5px); */
 }
 
 .sm-center-sign-btn {
   font-size: smaller;
   position: absolute;
-  left: 45%;
-  margin-top: 100px;
-  filter: blur(0.5px);
+  left: 40%;
+  margin-top: 150px;
+  /* filter: blur(0.5px); */
 }

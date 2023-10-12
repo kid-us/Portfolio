@@ -25,3 +25,27 @@
 .name {
   color: #fff;
 }
+
+.resume-container {
+  animation: moveIt 6s infinite ease-in-out;
+}
+
+.resume-img {
+  filter: grayscale(100%);
+}
+
+@keyframes moveIt {
+  0% {
+    transform: scale(0.9);
+  }
+  25% {
+    transform: scale(0.85);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(0.85);
+  }
+}

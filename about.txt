@@ -13,3 +13,57 @@ const developer = {
         );
     }
 }
+
+
+Maintenance and Support: Provide ongoing maintenance and support for web applications, ensuring they remain up-to-date, secure, and functional. They troubleshoot issues, perform bug fixes, and implement enhancements or updates as needed.
+
+
+Back-end Development:
+Building server-side logic and APIs also Integrating third-party services and APIs for functionality.
+
+
+Implementing security measures to protect against common web vulnerabilities and ensuring data privacy.
+Managing server configurations, deployment, and hosting solutions (e.g., AWS, Azure, Heroku, or Docker).
+
+
+
+Frontend Development
+I like to code things from scratch, and enjoy bringing ideas to life in the browser. And
+I build responsive websites for optimal user experience that achieves your business goals with great UI.
+
+
+Design
+I value simple content structure, clean design patterns, and thoughtful interactions and beautiful designs.
+
+
+
+<div class="outer-container">
+  <img src="https://i.ibb.co/7RhfRBZ/Fine-Line-Harry-Styles.jpg" alt="Harry Styles' Fine Line album cover" id="background" />
+  <audio src="https://res.cloudinary.com/cbanlawi/video/upload/v1614140796/HarryStyles-WatermelonSugar_f5471p.mp3" id="track"></audio>
+</div>
+
+<div class="player-container">
+  <img src="https://i.ibb.co/7RhfRBZ/Fine-Line-Harry-Styles.jpg" alt="Harry Styles' Fine Line album cover" id="thumbnail" />
+
+  <div class="box">
+    <div class="play-pause">
+      <i class="far fa-play-circle fa-3x" id="play"></i>
+      <i class="far fa-pause-circle fa-3x" id="pause"></i>
+    </div>
+    <div class="track-info">
+      <div id="track-artist">Harry Styles</div>
+      <div id="track-title">Watermelon Sugar</div>
+    </div>
+    <div class="next-prev">
+      <i class="far fa-arrow-alt-circle-left fa-2x" id="prev-track"></i>
+      <i class="far fa-arrow-alt-circle-right fa-2x" id="next-track"></i>
+    </div>
+    <div class="progress-bar">
+      <input type="range" id="progressBar" min="0" max="" value="0" />
+    </div>
+    <div class="track-time">
+      <div id="currentTime"></div>
+      <div id="durationTime"></div>
+    </div>
+  </div>
+</div>
