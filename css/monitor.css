@@ -1,0 +1,268 @@
+.monitor {
+  z-index: 20;
+}
+
+.md-monitor {
+  margin-top: 250px;
+}
+
+.sm-monitor {
+  margin-top: 250px;
+}
+
+.monitor-wrapper {
+  margin-top: 7em;
+  perspective: 1000px;
+  z-index: 1;
+}
+
+.monitor-left {
+  height: 362px;
+  background-color: #979797;
+  transition: 0.3s;
+  transform: rotateY(30deg);
+  border: 8px solid #000;
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: -10px 10px 5px rgb(47, 47, 47), -10px 10px 5px rgb(20, 20, 20);
+}
+
+.monitor-center {
+  margin-top: 10px;
+  height: 344px;
+  background-color: #979797;
+  transition: 0.3s;
+  border: 8px solid #000;
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: -5px -5px 5px rgb(47, 47, 47), 5px 5px 5px rgb(20, 20, 20);
+}
+
+.monitor-right {
+  height: 362px;
+  background-color: #979797;
+  transition: 0.3s;
+  transform: rotateY(-30deg);
+  border: 8px solid #000;
+  border-radius: 5px;
+  z-index: 4;
+  box-shadow: 10px 10px 5px rgb(47, 47, 47), 10px 10px 5px rgb(20, 20, 20);
+}
+
+/* Monitor Screens */
+.left-screen {
+  height: 338px;
+  background-color: #191923;
+
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+.center-screen {
+  height: 320px;
+  background-color: #171716;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+.right-screen {
+  height: 338px;
+  background-color: #171716;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+/* Large device monitor legs */
+.leg {
+  position: relative;
+}
+
+.top {
+  position: absolute;
+  top: 10px;
+  left: 95px;
+  height: 35px;
+  width: 90px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+}
+
+.bottom {
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  height: 30px;
+  width: 150px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  rotate: 2.5deg;
+}
+
+.center-top {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  height: 35px;
+  width: 90px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+}
+
+.center-bottom {
+  position: absolute;
+  top: 35px;
+  left: 30.9%;
+  height: 30px;
+  width: 180px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.right-bottom {
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  height: 30px;
+  width: 150px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  rotate: -2.5deg;
+  z-index: 1;
+}
+
+/* Medium device Monitor leg */
+.md-leg {
+  position: relative;
+}
+
+.md-top {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  height: 35px;
+  width: 90px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  z-index: -1;
+}
+
+.md-bottom {
+  position: absolute;
+  top: 29px;
+  left: 50px;
+  height: 30px;
+  width: 150px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.md-center-top {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  height: 35px;
+  width: 90px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+}
+
+.md-center-bottom {
+  position: absolute;
+  top: 35px;
+  left: 105px;
+  height: 30px;
+  width: 180px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* Small device Monitor leg */
+.sm-center-top {
+  position: absolute;
+  top: 10px;
+  left: 145px;
+  height: 35px;
+  width: 90px;
+  border: 2px solid #000;
+  background-color: rgb(20, 20, 20);
+}
+
+.sm-center-bottom {
+  position: absolute;
+  top: 35px;
+  left: 100px;
+  height: 30px;
+  width: 180px;
+  border: 3px solid #000;
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* Screen Saver and  Button */
+.screen-saver {
+  object-fit: cover;
+  filter: blur(5px);
+}
+
+.sign-btn {
+  font-size: smaller;
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  border: none;
+  font-weight: 500;
+  padding: 4px 17px;
+  border-radius: 4px;
+}
+
+.center-sign-btn {
+  font-size: smaller;
+  position: absolute;
+  left: 47%;
+  top: 45%;
+  border: none;
+  font-weight: 600;
+  padding: 4px 17px;
+  border-radius: 4px;
+}
+
+.md-center-sign-btn {
+  font-size: smaller;
+  position: absolute;
+  left: 62%;
+  margin-top: 150px;
+  border: none;
+  font-weight: 600;
+  padding: 4px 17px;
+  border-radius: 4px;
+}
+
+.sm-center-sign-btn {
+  font-size: smaller;
+  position: absolute;
+  left: 35%;
+  margin-top: 150px;
+  border: none;
+  font-weight: 600;
+  padding: 4px 17px;
+  border-radius: 4px;
+}
+
+.bi-fullscreen {
+  color: aqua;
+}
+
+.project-container {
+  background-color: #eae6e5;
+}
