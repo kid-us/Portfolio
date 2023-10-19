@@ -1,0 +1,42 @@
+.system {
+  position: relative;
+}
+
+.system-top {
+  position: absolute;
+  width: 10%;
+  margin-top: 10px;
+  border-bottom: 25px solid #161616;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top-left-radius: 30px;
+}
+
+.system-front {
+  position: absolute;
+  width: 10%;
+  height: 120px;
+  margin-top: 34.9px;
+  background-color: #000;
+  border-radius: 2px;
+}
+
+/* Small device system */
+.sm-system-top {
+  position: absolute;
+  width: 25%;
+  margin-top: 10px;
+  border-bottom: 25px solid #161616;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top-left-radius: 30px;
+}
+
+.sm-system-front {
+  position: absolute;
+  width: 25%;
+  height: 120px;
+  margin-top: 34.9px;
+  background-color: #000;
+  border-radius: 2px;
+}
