@@ -1,0 +1,360 @@
+.overlay {
+  position: fixed;
+  background-image: linear-gradient(-90deg, #0b5351 49%, #edf6f9 51%);
+  background-image: linear-gradient(-90deg, #39393a 49%, #eaf2e3 51%);
+  background-image: linear-gradient(-90deg, #28282c 49%, #000000 51%);
+  bottom: 0;
+  opacity: 0.9;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9;
+}
+
+.all-modals {
+  position: relative;
+}
+
+.modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: scroll;
+}
+
+@media (min-width: 992px) {
+  .modal-wrapper {
+    position: fixed;
+    width: 86%;
+    height: 90vh;
+    top: 100em;
+    top: 5.5%;
+    left: 7%;
+    z-index: 10;
+    overflow: scroll;
+  }
+}
+
+.contact-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95vh;
+  border-radius: 20px;
+  background-color: #3d3c3c;
+  border: 1px solid lightblue;
+  box-shadow: -5px -5px 5px rgb(68, 68, 68), 5px 5px 5px rgb(20, 20, 20);
+  z-index: 14;
+}
+
+/* On Small */
+
+@media (min-width: 768px) {
+  .contact-page {
+    position: absolute;
+    top: -37em;
+    left: 0;
+    width: 40%;
+    height: 473px;
+    border-radius: 20px;
+    background-color: #3d3c3c;
+    border: 1px solid lightblue;
+    box-shadow: -5px -5px 5px rgb(68, 68, 68), 5px 5px 5px rgb(20, 20, 20);
+    z-index: 14;
+  }
+}
+
+/* On Large */
+@media (min-width: 992px) {
+  .contact-page {
+    position: absolute;
+    width: 20%;
+    height: 473px;
+    left: 18.5%;
+    background-color: #3d3c3c;
+    width: 20%;
+    height: 473px;
+    top: -38em;
+    left: 18.5%;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    box-shadow: -5px -5px 5px rgb(68, 68, 68), 5px 5px 5px rgb(20, 20, 20);
+    z-index: 14;
+  }
+}
+
+.ear-speaker {
+  position: absolute;
+  top: 9px;
+  width: 90px;
+  height: 15px;
+  background-color: #000;
+  left: 32%;
+  border-radius: 8px;
+}
+
+.mobile {
+  margin-top: -5px;
+  border-radius: 20px;
+  height: 92vh;
+}
+
+/* On medium */
+@media (min-width: 768px) {
+  .mobile {
+    margin-top: -5px;
+    border-radius: 20px;
+    height: 465px;
+  }
+}
+
+/* On Large */
+@media (min-width: 992px) {
+  .mobile {
+    margin-top: -5px;
+    border-radius: 20px;
+    height: 465px;
+  }
+}
+
+.mobile-top {
+  position: absolute;
+  top: 9px;
+}
+
+.mobile-front {
+  overflow: scroll;
+  height: 80vh;
+  color: #000;
+}
+
+/* On medium */
+@media (min-width: 768px) {
+  .mobile-front {
+    overflow: scroll;
+    height: 390px;
+    color: #000;
+  }
+}
+/* On Large */
+@media (min-width: 992px) {
+  .mobile-front {
+    overflow: scroll;
+    height: 390px;
+    color: #000;
+  }
+}
+
+.mobile-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+
+.close-modal {
+  position: fixed;
+  right: 0;
+}
+
+/* About Modal */
+.about-modal {
+  background-color: gray;
+  padding: 0px 18px;
+  height: 690px;
+}
+
+.about-page {
+  background-color: #171716;
+  border: 2px solid #000;
+  height: auto;
+}
+
+/* About Page */
+.sm-about-page {
+  background-color: #171716;
+  height: auto;
+}
+
+.sm-code-about {
+  background-color: #f1fffa;
+  border-radius: 4px;
+}
+
+/* Project Modal */
+.project-modal {
+  background-color: gray;
+  padding: 0px 6px;
+}
+
+.project-page {
+  background-color: #171716;
+  border: 2px solid #000;
+  height: auto;
+}
+
+/* Resume Modal*/
+.resume-modal {
+  background-color: #456990;
+  /* padding: 0px 19px; */
+}
+
+.resume-page {
+  height: auto;
+}
+
+/* Service Modal*/
+.service-modal {
+  background-color: gray;
+  padding: 0px 6px;
+}
+
+.service-page {
+  background-color: #191923;
+  border: 2px solid #000;
+  height: auto;
+}
+
+/* Fullscreen Btn */
+.bi-fullscreen {
+  animation: heartbeat 3s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.9);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+/* Project Styles */
+.project-1 {
+  background: rgba(213, 157, 36, 0.398);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-2 {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-3 {
+  background: rgba(220, 220, 220, 0.409);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-4 {
+  background: #000000d1;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-5 {
+  background: #02a6ed54;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-6 {
+  background: #b80c036c;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project {
+  height: 90px;
+  transition: 1s;
+  border: 1px solid #000;
+  box-shadow: 3px 5px #000;
+}
+.project:hover {
+  box-shadow: none;
+}
+
+.large-project {
+  transition: 1s;
+  height: 250px;
+  box-shadow: 3px 5px #000;
+}
+
+.large-project:hover {
+  box-shadow: 5px 6px 25px #171716;
+}
+
+.skill-img {
+  filter: grayscale(100%);
+}
+
+/* Project link btn */
+.web-btn {
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: "Raleway", sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: 0.2s 0.1s;
+  background-image: linear-gradient(190deg, #1c1c1c, #102e4a);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+.web-btn:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #eeeeee;
+}
