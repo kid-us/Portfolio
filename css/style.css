@@ -1,1 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100;400&family=Russo+One&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@500&family=Lilita+One&family=Poppins:wght@700&family=Rajdhani&family=Rowdies:wght@300&family=Ubuntu:wght@300&display=swap");
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /* background-image: linear-gradient(-120deg, #acb0a8 49%, #2c302e 51%); */
+  background-image: linear-gradient(50deg, #393e41 49%, #2c302e 51%);
+  height: auto;
+}
+
+.bg {
+  /* background-image: linear-gradient(-120deg, #acb0a8 49%, #2c302e 51%); */
+  background-image: linear-gradient(50deg, #393e41 49%, #2c302e 51%);
+  bottom: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rowdies", cursive;
+  font-family: "Russo One", sans-serif;
+}
+
+p,
+a,
+li,
+span,
+input,
+label,
+textarea {
+  font-family: "Raleway", sans-serif;
+}
+
+.h-font {
+  font-family: "Russo One", sans-serif;
+}
+
+.p-font {
+  font-family: "Raleway", sans-serif;
+}
+
+.ls-none {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+  height: 338px;
+}
+
+.center-overflow-scroll {
+  overflow: scroll;
+  height: 320px;
+}
+
+.pin-shadow {
+  box-shadow: 2px 3px #000;
+  border-radius: 1px;
+}
+
+#audio-container {
+  background-color: #886644;
+  box-shadow: 2px 4px 20px red;
+}
+
+button {
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: 0.2s 0.1s;
+  background-image: linear-gradient(190deg, #1c1c1c, #102e4a);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding-right: 30px;
+  padding-left: 30px;
+}
